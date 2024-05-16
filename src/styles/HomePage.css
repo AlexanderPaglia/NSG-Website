@@ -1,0 +1,415 @@
+
+/* Header Section */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-image: url('../Images/HeroBackground.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 300px 20px;
+    text-align: center;
+    border-radius: 50px;
+  }
+
+  
+  .header h1 {
+    font-size: 3rem;
+  }
+  
+  .header p {
+    font-size: 1.5rem;
+  }
+  
+  .header button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .featured-content {
+    background-color: #f5f5f5;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .footer nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin-right: 10px;
+  }
+
+  .logo {
+    width: 100px;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .navbar {
+    position: absolute; /* Position the navbar relative to its closest positioned ancestor */
+    top: 0; /* Position it at the top of the page */
+    right: 0; /* Position it at the left of the page */
+    z-index: 999; /* Ensure it appears above other content */
+  }
+
+
+
+
+
+  /* Specialty Section */
+.specialties {
+  background-color: #f5f5f5;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.specialties-heading {
+  margin-bottom: 30px; /* Add margin bottom to separate from specialties-container */
+}
+
+.specialties-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.specialty {
+  position: relative;
+  flex: 0 1 30%; /* Adjust width of service items */
+}
+
+.specialty img {
+  width: 100%;
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.blurb {
+  margin-top: 30px;
+}
+
+.blurb p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.specialty h3 {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transform: 50%;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  border-radius: 0 0 10px 10px;
+}
+
+.blurb button {
+  background: #333399;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-position 0.3s ease; /* Add transition for smoothness */
+  background-size: 200% auto; /* Double the background size to cover the entire area */
+  background-image: linear-gradient(to right, #333399, #c300ff); /* Gradient background */
+}
+
+.blurb button:hover {
+  background-position: right center; /* Slide the background to the right */
+}
+ 
+/* Talent Section */
+.talents{
+  text-align: center;
+}
+
+
+.talent-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.talent {
+  position: relative;
+  flex: 0 1 30%; /* Adjust width of service items */
+}
+
+.talent img {
+  width: auto;
+  height: auto; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+  /* About Section */
+  .about-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-us {
+    flex: 1;
+    padding-right: 20px; /* Add some space between the content and testimonial */
+  }
+  
+  .about-heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-description {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+.about-button {
+  background: #333399;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-position 0.3s ease; /* Add transition for smoothness */
+  background-size: 200% auto; /* Double the background size to cover the entire area */
+  background-image: linear-gradient(to right, #333399, #c300ff); /* Gradient background */
+}
+
+.about-button:hover {
+  background-position: right center; /* Slide the background to the right */
+}
+
+  
+
+  .testimonial {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: flex-start; /* Align items to start of column */
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  
+  .testimonial-content {
+    width: 320px;
+    height: 140px;
+    background: rgb(0, 0, 0);
+    color:#fff;
+    position: relative;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+  }
+  
+  .testimonial-content:before {
+    content: '';
+    position: absolute;
+    left: 15px; /* Adjust the position from the left */
+    top: 100%; /* Position it below the speech bubble */
+    width: 0;
+    height: 0;
+    border-left: 13px solid transparent; /* Change from border-right to border-left */
+    border-right: 13px solid transparent; /* Change from border-bottom to border-right */
+    border-top: 20px solid rgb(0, 0, 0); /* Adjust the size and change to border-top */
+  }
+  
+  .testimonial-profile {
+    display: flex; /* Use flex layout */
+    align-items: center; /* Align items vertically */
+    flex-direction: row; /* Arrange items horizontally */
+    max-width: calc(100% - 100px); /* Set maximum width to accommodate bubble width and image */
+  }
+  
+  .testimonial-profile img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    border-radius: 50%; /* Makes it round */
+    margin-left: -20px;
+    margin-top: 30px;
+  }
+    
+  .testimonial-author {
+    font-weight: bold;
+    max-width: calc(100% - 110px); /* Set maximum width to accommodate bubble width, image, and margin */
+  }
+  
+
+/* Services Section */
+.services {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.service {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 50px;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.service h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.service:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.service:hover img {
+  filter: brightness(90%);
+}
+
+.service:hover h2 {
+  color: #333399;
+}
+
+.service:hover p {
+  color: #555;
+}
+.team-section h1{
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.team-container {
+  display: flex; /* Use flexbox to line up items horizontally */
+  justify-content: center; /* Center align items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+}
+
+.team-member {
+  width: 300px;
+  height: 400px; /* Adjust height to accommodate flipped content */
+  margin: 20px; /* Add margin between team members */
+  perspective: 1000px; /* Add perspective for 3D effect */
+}
+
+.card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.team-member:hover .card {
+  transform: rotateY(180deg); /* Flip the card on hover */
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* Hide backface of the card */
+}
+
+.front {
+  background-color: #fff;
+  z-index: 2; /* Ensure front content is above back content */
+}
+
+.back {
+  background-color: #f9f9f9;
+  transform: rotateY(180deg); /* Initially hide the back side */
+}
+
+.back-content {
+  padding: 20px;
+}
+
+.back-content p {
+  font-size: 16px;
+  color: #333;
+}
+
+
+
+
+
+  
+  

@@ -1,0 +1,37 @@
+.team-member {
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.team-member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.team-member h2 {
+    margin-bottom: 10px;
+}
+
+.team-member img {
+    width: auto;
+    height: auto; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+.team-member p {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
